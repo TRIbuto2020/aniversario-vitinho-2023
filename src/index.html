@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aniversário do Vitinho</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/main.scss">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <header class="hero">
+        <div class="container">
+            <p class="hero__text" data-aos="fade-down" data-aos-delay="1000" >
+                O aniversário do seu amigo menos extovertido será em: <br>
+                <span id="contador"></span>
+            </p>
+            <div class="infos-bar" data-aos="fade-up" data-aos-delay="2000">
+                <ul class="infos-bar__infos">
+                    <li class="infos-bar__infos__item">
+                        <b>Onde</b>
+                        Parque Villa Lobos - São Paulo
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Quando</b>
+                        07/11/2023 às 19hrs
+                    </li>
+                    <li class="infos-bar__infos__item">
+                        <b>Como</b>
+                        Estação Jaguaré - Linha Esmeralda
+                    </li>
+                </ul>
+                <a href="" class="button button--primary">
+                    Confirme sua presença
+                </a>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="event">
+            <div class="container" data-aos="fade-up" data-aos-delay="300">
+                <div class="event__detail">
+                    <h2 class="event__detail__title">Vestimenta</h2>
+                    <p class="event__detail__description">
+                        Venha como achar melhor, mas recomendo que estaja confortável e com mobilidade. O dia será recheado de atividades e esportes, roupas formais só irão atrapalhar. O ideal é mandar aquela bermuda de basquete ou shorts de corrida, uma dry-fit colorida, um tênis confortável (nada de sola reta) ou chinelão e aquele corta-vento no caso de uma chuvinha. Óculos escuro e chapéu/boné a seu critério!
+                    </p>
+                </div>
+                <img class="event__image" src="./images/roupasEsporte.jpg" alt="Front-end">
+            </div>
+        </section>
+        <section class="event event--image-left">
+            <div class="container" data-aos="fade-up"  data-aos-delay="300">
+                <div class="event__detail">
+                    <h2 class="event__detail__title">Comes e Bebes</h2>
+                    <p class="event__detail__description">
+                        Teremos água, sucos naturais e uma seleção de isotônicos.<br>
+                        Para matar a fome, opções de tortas, salgadinhos e macarrão. Em termos de docinhos, brigadeiros, macarons, sorvetes de massa e picolés!
+                    </p>
+                </div>
+                <img class="event__image" src="./images/comes.jpg" alt="Front-end">
+            </div>
+        </section>
+        <section class="event">
+            <div class="container" data-aos="fade-up"  data-aos-delay="300">
+                <div class="event__detail">
+                    <h2 class="event__detail__title">Atividades</h2>
+                    <p class="event__detail__description">
+                        Levaremos um carregamento com os mais diversos tipos de bolas: queimada, volley, basquete, futebol americano, entre outras. Além disso, teremos frisbees, slackline, baralhos, frescobol, peteca e masi!
+                    </p>
+                </div>
+                <img class="event__image" src="./images/frisbee.jpg" alt="Front-end">
+            </div>
+        </section>
+        <section class="event event--image-left">
+            <div class="container" data-aos="fade-up"  data-aos-delay="300">
+                <div class="event__detail">
+                    <h2 class="event__detail__title">Presentes</h2>
+                    <p class="event__detail__description" >
+                        Sua presença já será um presente, mas caso insista em trazer algo material, equipamentos de ciclismo, corrida ou natação são sempre bem vindos!!
+                    </p>
+                </div>
+                <img class="event__image" src="./images/rodas.jpg" alt="Front-end">
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <ul class="footer__infos">
+            <li class="footer__infos__item">
+                <b>Onde</b>
+                Parque Villa Lobos - São Paulo
+            </li>
+            <li class="footer__infos__item">
+                <b>Quando</b>
+                07/11/2023 às 19hrs
+            </li>
+            <li class="footer__infos__item">
+                <b>Como</b>
+                Estação Jaguaré - Linha Esmeralda
+            </li>
+        </ul>
+        <a href="" class="footer__button">
+            Confirme sua presença
+        </a>
+    </footer>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
